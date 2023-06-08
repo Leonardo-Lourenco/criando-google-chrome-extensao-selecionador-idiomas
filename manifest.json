@@ -1,0 +1,29 @@
+{
+    "name": "Idiomas -  Cofffee Tag ",
+    "description": "A simple extension for choosing from different language options",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js" 
+    },
+
+    "action": {
+        "default_popup": "popup.html",
+
+        "default_icon": {
+            "16": "./images/uk.png",
+            "32": "./images/uk.png",
+            "48": "./images/uk.png",
+            "128": "./images/uk.png"
+          }
+      },
+
+      "icons": {
+        "16": "./images/uk.png",
+        "32": "./images/uk.png",
+        "48": "./images/uk.png",
+        "128": "./images/uk.png"
+      },    
+
+    "permissions": ["storage"]
+  }
